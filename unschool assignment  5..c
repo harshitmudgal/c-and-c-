@@ -21,7 +21,7 @@ scanf("%s %d %d %f",&e[i].name,&e[i].empid,&e[i].exp,&e[i].slry);
 printf("Details\n");
 for(i=0;i<5;i++)
 {
-    printf("\nName:%s\n Id:%d\n Experience:%d\n Salary:%f\n\n",e[i].name,e[i].empid,e[i].exp,e[i].slry);
+    printf("Name:%s\n Id:%d\n Experience:%d\n Salary:%f\n\n",e[i].name,e[i].empid,e[i].exp,e[i].slry);
 }
 
 return 0;
